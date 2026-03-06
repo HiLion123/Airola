@@ -1,6 +1,6 @@
 import { QuoteData, User } from './types';
 
-const APPS_SCRIPT_URL = import.meta.env.VITE_APPS_SCRIPT_URL;
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyqz0hMqRw9iy71-9PnY4KSs7-ovGCiDpgEfdRoBEinXP7vnsE8csGarj6UujxKfQvo/exec";
 
 export const appendToSheet = async (sheetName: string, data: any[]) => {
   if (!APPS_SCRIPT_URL) {
